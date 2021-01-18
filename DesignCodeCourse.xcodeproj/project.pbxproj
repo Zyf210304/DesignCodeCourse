@@ -13,6 +13,10 @@
 		00D9DBAD25B522A500A159BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9DB9825B522A200A159BB /* ContentView.swift */; };
 		00D9DBAE25B522A500A159BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D9DB9925B522A500A159BB /* Assets.xcassets */; };
 		00D9DBAF25B522A500A159BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D9DB9925B522A500A159BB /* Assets.xcassets */; };
+		00D9DBBD25B5774400A159BB /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9DBBC25B5774400A159BB /* CourseRow.swift */; };
+		00D9DBBE25B5774400A159BB /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9DBBC25B5774400A159BB /* CourseRow.swift */; };
+		00D9DBC225B5855300A159BB /* SliderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9DBC125B5855300A159BB /* SliderBar.swift */; };
+		00D9DBC325B5855300A159BB /* SliderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9DBC125B5855300A159BB /* SliderBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		00D9DBA625B522A500A159BB /* DesignCodeCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D9DBA825B522A500A159BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00D9DBA925B522A500A159BB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		00D9DBBC25B5774400A159BB /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		00D9DBC125B5855300A159BB /* SliderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			children = (
 				00D9DB9725B522A200A159BB /* DesignCodeCourseApp.swift */,
 				00D9DB9825B522A200A159BB /* ContentView.swift */,
+				00D9DBBC25B5774400A159BB /* CourseRow.swift */,
+				00D9DBC125B5855300A159BB /* SliderBar.swift */,
 				00D9DB9925B522A500A159BB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00D9DBAC25B522A500A159BB /* ContentView.swift in Sources */,
+				00D9DBBD25B5774400A159BB /* CourseRow.swift in Sources */,
+				00D9DBC225B5855300A159BB /* SliderBar.swift in Sources */,
 				00D9DBAA25B522A500A159BB /* DesignCodeCourseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00D9DBAD25B522A500A159BB /* ContentView.swift in Sources */,
+				00D9DBBE25B5774400A159BB /* CourseRow.swift in Sources */,
+				00D9DBC325B5855300A159BB /* SliderBar.swift in Sources */,
 				00D9DBAB25B522A500A159BB /* DesignCodeCourseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
